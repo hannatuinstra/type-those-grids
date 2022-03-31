@@ -25,7 +25,7 @@ body {
 }
 
 h1 h2 dt {
-  font-style:italic/normal;
+  font-style: italic;
 }
 
 header {
@@ -44,7 +44,7 @@ h2 {
 
 h3 {
   font-size: 1.5rem;
-  font-style: italic/normal;
+  font-style: italic;
 }
 
 main > img {

@@ -1,0 +1,77 @@
+html {
+  box-sizing: border-box;
+  font-family: Merriweather, serif;
+  line-height: 1.5;
+  width: 1000px;
+  height: auto;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "banner banner banner"
+    "box1 box2 box3";
+  gap: .75rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 h2 dt {
+  font-style: italic;
+}
+
+header {
+  margin: 1rem;
+}
+
+h1 {
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-style: italic;
+}
+
+main > img {
+  grid-area: banner;
+  max-width: inherit;
+}
+
+figcaption {
+  padding: .5rem;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.explore {
+  grid-area: banner;
+  color: white;
+  align-self: end;
+  padding: 1rem;
+}
+
+.seven-wonders {
+  display: grid;
+  grid-area: banner;
+}
